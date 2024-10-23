@@ -1,0 +1,17 @@
+.file-manager-container {
+    padding: 0; /* Ensure no extra padding around the container */
+  }
+  
+  .ant-table-wrapper {
+    margin-top: 16px;
+  }
+
+  .upload-dragger {
+    transition: max-height 0.3s ease-out;
+    max-height: 500px;
+    overflow: hidden;
+  }
+  
+  .upload-dragger-hidden {
+    max-height: 0;
+  }
